@@ -5,7 +5,7 @@ This script is a high-performance tool for simulating large, concatenated DNA se
 The primary use case is for generating datasets under specific evolutionary models, such as creating a null-hypothesis dataset (i.e., evolution without gene flow) for downstream hypothesis testing in phylogenomics.
 
 The script offers two convenient modes of operation:
--   **Automatic Mode**: Directly parses the GTR+GAMMA substitution model parameters from a `RAxML-ng` info/log file.
+-   **Automatic Mode**: Directly parses the GTR+GAMMA substitution model parameters from a `RAxML` info/log file.
 -   **Manual Mode**: Uses substitution model parameters provided by the user in a simple JSON file format.
 
 ---
